@@ -32,6 +32,7 @@ from donkeycar.parts.throttle_filter import ThrottleFilter
 from donkeycar.parts.behavior import BehaviorPart
 from donkeycar.parts.file_watcher import FileWatcher
 from donkeycar.parts.launch import AiLaunch
+from donkeycar.parts.encoder import RotaryEncoder
 from donkeycar.utils import *
 
 def drive(cfg, model_path=None, use_joystick=False, model_type=None, camera_type='single', meta=[]):
