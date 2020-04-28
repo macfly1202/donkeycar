@@ -58,6 +58,7 @@ setup(name='donkeycar',
                     'nano': [
                         'Adafruit_PCA9685',
                         'Adafruit_SSD1306',
+                        'pyserial'
                         ],
                     'pc': [
                         'matplotlib',
