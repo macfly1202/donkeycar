@@ -173,7 +173,7 @@ IMU_DLP_CONFIG = 0              # Digital Lowpass Filter setting (0:250Hz, 1:184
 HAVE_SOMBRERO = False           #set to true when using the sombrero hat from the Donkeycar store. This will enable pwm on the hat.
 
 # Rotary Encoder
-ROTARY_ENCODER = False
+HAVE_ROTARY_ENCODER = False
 ROTARY_ENCODER_PIN = 24
 ROTARY_ENCODER_DEBUG = False
 

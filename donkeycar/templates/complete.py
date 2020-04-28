@@ -288,6 +288,11 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None, camera_type
         from donkeycar.parts.sombrero import Sombrero
         s = Sombrero()
 
+    #Rotary Encoder
+    if cfg.HAVE_ROTARY_ENCODER:
+        rpm_sensor = RotaryEncoder(mm_per_tick=22.1600, pin=cfg.ROTARY_ENCODER_PIN, poll_delay=0.1166, debug=cfg.ROTARY_ENCODER_DEBUG)
+        V.add(rpm_sensor, outputs=['meters','meters_second'],threaded=True)
+
     #IMU
     if cfg.HAVE_IMU:
         from donkeycar.parts.imu import IMU
