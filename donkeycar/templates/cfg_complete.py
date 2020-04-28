@@ -46,6 +46,9 @@ PCA9685_I2C_BUSNUM = None   #None will auto detect, which is fine on the pi. But
 USE_SSD1306_128_32 = False    # Enable the SSD_1306 OLED Display
 SSD1306_128_32_I2C_BUSNUM = 1 # I2C bus number
 
+USE_SSD1306_128_64 = False    # Enable the SSD_1306 OLED Display
+SSD1306_128_64_I2C_BUSNUM = 1 # I2C bus number
+
 #DRIVETRAIN
 #These options specify which chasis and motor setup you are using. Most are using SERVO_ESC.
 #DC_STEER_THROTTLE uses HBridge pwm to control one steering dc motor, and one drive wheel motor
